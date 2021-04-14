@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="2dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginBottom="4dp"
+    android:background="@color/background_home">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="374dp"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/fav_activity_img"
+            android:layout_width="150dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="10dp"
+
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="@string/event"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.008"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sauna" />
+
+        <TextView
+            android:id="@+id/txt_activity_title"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/event_title"
+            app:layout_constraintStart_toEndOf="@+id/fav_activity_img"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/text_activity_place"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/activity_place"
+            app:layout_constraintStart_toEndOf="@+id/fav_activity_img"
+            app:layout_constraintTop_toBottomOf="@+id/txt_activity_title" />
+
+        <TextView
+            android:id="@+id/txt_activity_desc"
+            android:layout_width="140dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/activity_description"
+            app:layout_constraintStart_toEndOf="@+id/fav_activity_img"
+            app:layout_constraintTop_toBottomOf="@+id/text_activity_place" />
+
+        <TextView
+            android:id="@+id/txt_activity_month"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/activity_month"
+            app:layout_constraintStart_toEndOf="@+id/fav_activity_img"
+            app:layout_constraintTop_toBottomOf="@+id/txt_activity_desc" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

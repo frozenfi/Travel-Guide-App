@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">TravelGuide</string>
+
+
+    <!-- common strings-->
+    <string name="nameOfApp">Visit Helsinki</string>
+    <string name="hotels">Hotels</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="museum">Museum</string>
+    <string name="shop">Shopping</string>
+    <string name="attraction">Attraction</string>
+    <string name="other">Others</string>
+    <string name="support">Support</string>
+    <string name="settings">Setting</string>
+    <string name="aboutUs">About Us</string>
+    <string name="travel">Travel Destination</string>
+
+    <!-- Strings used in splashScreen-->
+
+    <string name="visit_helsinki">Visit Helsinki</string>
+    <string name="sub_slogan">Once is not enough</string>
+    <string name="helsinki_city_guide"> Helsinki City Guide </string>
+    <string name="splash_subtitle">Your travel companion</string>
+
+
+    <!-- Dashboard/FrontPage screen description -->
+    <string name="recommended_location">Recommended Locations</string>
+    <string name="location_desc">These are the location recommended by most of the tourists visiting Helsinki City. Enjoy your visit. </string>
+    <string name="categories"> All categories</string>
+    <string name="search_bar">Search </string>
+    <string name="event">Events</string>
+    <string name="activities">Activities</string>
+    <string name="fav_activities">Favourite Activities</string>
+    <string name="fav_events">Favourite Events</string>
+    <string name="most_visited_place">Most Visited place</string>
+    <string name="view_all">View all</string>
+    <string name="event_and_activities">Event and activities</string>
+    <string name="featured_desc">This is one of the beautiful place in Helsinki. People habg out quite often with their friends and families.</string>
+    <string name="rate_us">Rate us</string>
+    <string name="share">share</string>
+    <string name="slogan_name">Check out and visit the places.</string>
+
+    <string name="sauna">sauna</string>
+    <string name="nature"> Nature trails</string>
+    <string name="library">Library</string>
+    <string name="concert">Concert</string>
+    <string name="recreation">Recreation</string>
+    <string name="old_city">Old City of Helsinki</string>
+    
+    <string name="see_more">See all.</string>
+
+    <!-- Activity Details strings -->
+    <string name="nuuksio_national_park">Nuuksio National Park</string>
+    <string name="nuuksio_desc">Nuuksio National Park (Finnish: Nuuksion kansallispuisto, Swedish: Noux nationalpark)
+        is one of Finlands 40 national parks.Established in 1994, the park spreads over an area of forests and lakes in
+        Espoo, Kirkkonummi and Vihti.North-west from Helsinki, it is the second-closest national park to the capital
+        behind the recentlyestablished Sipoonkorpi National Park. The name is derived from the Nuuksio district of Espoo.
+        Located less than 30 kilometers from downtown Helsinki, the park can easily be reached by public transportation.
+        Bus 245A leaves from Espoon keskus to Nuuksionpää and Kattila during daytime.
+    </string>
+    <string name="back_arrow">back arrow</string>
+    <string name="activity_description">Event description</string>
+    <string name="activity_month">Event month</string>
+    <string name="activity_place">Activity Place</string>
+    <string name="event_title">Event Title</string>
+    <string name="event_place">Event Place</string>
+    <string name="event_description">Event description</string>
+    <string name="event_month">Event month</string>
+</resources>

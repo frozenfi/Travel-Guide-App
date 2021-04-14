@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#291B3A</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimaryText">#212121</color>
+
+
+    <!-- Colors used in front screen -->
+    <color name="background_home">#DDE8EA</color>
+    <color name="background_banner">#F4EAEA</color>
+    <color name="background_light">#DFD1D1</color>
+
+    <color name="first_card">#A7DACE</color>
+    <color name="second_card">#2196F3</color>
+    <color name="third_card">#AA86E6</color>
+    <color name="fourth_card">#DA71D8</color>
+    <color name="fifth_card">#8FEFC5</color>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="5sp"
+    app:cardCornerRadius="2dp"
+    android:background="@color/fifth_card"
+    app:cardElevation="8dp">
+
+
+    <LinearLayout
+        android:layout_width="178dp"
+        android:layout_height="267dp"
+        android:layout_gravity="top"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <ImageView
+            android:id="@+id/featured_image"
+            android:layout_width="155dp"
+            android:layout_height="140dp"
+            android:scaleType="centerCrop"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:contentDescription="@string/fav_events"
+            android:src="@drawable/hel3" />
+
+        <TextView
+            android:id="@+id/featured_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="@string/old_city"
+            android:textAllCaps="true"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/featured_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:text="@string/featured_desc" />
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
